@@ -1,0 +1,336 @@
+/* Mobile & Tablet */
+@media (max-width:1023px) {
+    .hide-on-mobile-tablet {
+        display: none;
+    }
+
+    .home__wp-title {
+        /* padding-top: 70%;
+        transform: translateY(-30%); */
+    }
+
+    .search {
+        min-height: 550px;
+    }
+
+    .home__btn {
+        width: 60%;
+    }
+
+    .home__wp-title h1:first-child {
+        font-size: 72px;
+    }
+
+    .home__wp-title h1:nth-child(2) {
+        font-family: 'Beyond';
+        font-size: 62px;
+        color: #fff;
+        text-align: center;
+        margin: 0 0 40px 0;
+    }
+
+    .header__nav-icon--search i {
+        font-size: 1.8rem;
+        padding: 0 0 0 16px;
+    }
+
+    .header__search-mobile {
+        display: flex;
+    }
+
+    .search__container__tabs .search__container__tab.active {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    /* Tour */
+    .tour {
+        padding: 0 12px;
+    }
+
+    .tour__container--item  {
+        margin-bottom: 50px;
+    }
+
+    /* Rooms */
+    .room__wp__container {
+        margin-right: 0;
+    }
+    
+    .room__wpr__item {
+        padding: 0 12px;
+    }
+
+    .room__wpl__item {
+        padding: 0 12px;
+    }
+    /* Contact */
+    .btn_send {
+        width: 100%;
+    }
+
+    /* About */
+    .wp__info__title h1 {
+        text-align: center;
+    }
+    
+    .wp__detail {
+        text-align: justify;
+    }
+
+    .stastics__content {
+        padding: 0 24px;
+    }
+    
+    .sale__content {
+        text-align: center;
+        object-fit: fill;
+    }
+
+    .search__container__offers {
+        margin-top: 60px;
+    }
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width:1023px) {
+    .header_search {
+        font-size: 2rem;
+        height: 48px;
+    }
+
+
+
+    .wp__search-item {
+        top: 80px;
+        position: relative;
+    }
+
+    .search__container__tabs .col:first-child .search__container__tab,
+    .search__container__tabs .col:last-child .search__container__tab {
+        border-radius: unset;
+    }
+
+    .search__container__tabs {
+        background: unset;
+        border-radius: unset;
+        height: 162px;
+        width: 100%;
+    }
+
+    .search__container__tabs .search__container__tab {
+        background: #fff;
+        height: 48px;
+        width: 100%;
+    }
+
+    .search__container__tabs .search__container__tab:hover {
+        margin: 0;
+    }
+
+    .search__container {
+        margin-top: 100px;
+    }
+
+    .show__menu__content {
+        transform: translateX(25%);
+        opacity: 1;
+    }
+
+    .evaluate {
+        right: 0;
+        margin-top: -24%;
+    }
+
+    .offers .item_rating {
+        font-size: 1.4rem;
+    }
+
+    .offers .room__icon {
+        margin-bottom: 6px;
+    }
+
+    .offers .price {
+        /* margin-bottom: 20px; */
+        padding-right: 0.5rem;
+    }
+
+    .wp__text__evaluate {
+        margin-right: 4px;
+    }
+}
+
+/* Mobile*/
+@media (max-width: 739px) {
+    .hide-on-mobile {
+        display: none;
+    }
+    .header__phone {
+        padding-left: 12px;
+    }
+    .search {
+        min-height: 550px;
+    }
+
+    .search__container-item a{
+        top: 0;
+        margin: 26px 0;
+    }
+    .header__nav {
+        padding: 12px;
+    }
+
+    .header_search {
+        position: relative;
+        top: 54px;
+        left: -150%;
+        opacity: 1;
+        border: none;
+        font-size: 1.2rem;
+        width: 80%;
+        height: 30px;
+        border-radius: 15px;
+        padding: 8px;
+        outline-color: var(--primary-color);
+        transition: all 0.3s linear;
+        transform: translateY(0);
+        opacity: 0;
+    }
+
+    .show_header_search {
+        display: block;
+        position: relative;
+        top: 58px;
+        width: 100%;
+        left: 0;
+        opacity: 1;
+        border: none;
+        font-size: 1.2rem;
+        height: 42px;
+        border-radius: 15px;
+        padding: 8px;
+        outline-color: var(--primary-color);
+        transition: all 0.3s linear;
+        transform: translateY(0);
+        opacity: 1;
+    }
+
+    .wp__search-item {
+        top: 50px;
+        position: relative;
+        width: 98%;
+    }
+
+    .search__container__tabs .col:first-child .search__container__tab,
+    .search__container__tabs .col:last-child .search__container__tab {
+        border-radius: unset;
+    }
+
+    .search__container__tabs {
+        background: unset;
+        border-radius: unset;
+        height: 162px;
+        width: 98%;
+       margin-left: auto;
+       margin-right: auto;
+    }
+
+    .search__container__tabs .search__container__tab {
+        background: #fff;
+        height: 48px;
+        width: 95%;
+        margin: 5px;
+    }
+
+    .search__container__tabs .search__container__tab:hover {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .search__container {
+        padding-top: 260px;
+        width: 95%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .search__container-item {
+        padding: 0;
+    }
+
+    /* Packege */
+    .package__container {
+       margin: 0 12px;
+    }
+
+    /* rooms */
+    .room__wpr__item p {
+        font-size: 2rem;
+    }
+
+    .room__wp__container {
+        padding: 15px 0;
+    }
+    
+    .room__wpr__item a {
+       text-align: right;
+       margin-top: 20px;
+    }
+
+    .about__body {
+        margin: 0 12px;
+    }
+
+    /* contact */
+    .form__contact {
+        margin: 0 12px;
+    }
+
+    /* footer */
+    .footer {
+        padding: 12px;
+    }
+
+    .stickers {
+        margin-top: -20%;
+    }
+
+    .search__container__offers {
+        margin-top: 250px;
+        margin-left: 12px;
+        margin-right: 12px;
+    }
+
+    /* .offers__list {
+        display: ;
+    } */
+    .offers__list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        flex: 1; 
+        margin-left: 12px;
+        margin-right: 12px;
+    }
+
+    .offers__container__item {
+        padding-right: 0;
+        margin-right: 0;
+    }
+
+    .offers .fa-chevron-down {
+        padding-right: 8px;
+    }
+
+    .wp__offers__content {
+        margin-left: 12px;
+        margin-right: 12px;
+    }
+
+    .evaluate {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: -60px;
+    }
+}

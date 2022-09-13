@@ -1,0 +1,880 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="10x15" href="../asset/img/logo_title.ico">
+    <link rel="stylesheet" href="../asset/css/base.css">
+    <link rel="stylesheet" href="../asset/css/grid.css">
+    <link rel="stylesheet" href="../asset/css/reset.css">
+    <link rel="stylesheet" href="../asset/css/style.css">
+    <link rel="stylesheet" href="../asset/css/responsive.css">
+    <link rel="stylesheet"
+        href="../asset/font/fontawesome-free-6.0.0-beta3-web/fontawesome-free-6.0.0-beta3-web/css/all.min.css">
+    <script src="../asset/js/jquery-3.6.0.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
+    <title>Travelix</title>
+</head>
+
+<body>
+    <div class="app">
+        <header class="header">
+            <div class="header__topbar">
+                <div class="grid wide">
+                    <div class="header__topbar-container">
+                        <div class="row">
+                            <div class="col l-6 m-8 c-12">
+                                <span class="header__phone">+84 943 833 031</span>
+                                <a href=""><i class="fab fa-pinterest header__icon"></i></a>
+                                <a href=""><i class="fab fa-facebook-f header__icon"></i></a>
+                                <a href=""><i class="fab fa-twitter header__icon"></i></a>
+                                <a href=""><i class="fab fa-dribbble header__icon"></i></a>
+                                <a href=""><i class="fab fa-behance header__icon"></i></a>
+                                <a href=""><i class="fab fa-linkedin-in header__icon"></i></a>
+                            </div>
+                            <div class="col l-6 m-4 c-0 header__authen">
+                                <a href="" class="header__login">LOGIN</a>
+                                <span class="header__seperate"></span>
+                                <a href="" class="header__register">REGISTER</a>
+                            </div>
+                        </div>
+                    </div>
+                    <nav class="header__nav">
+                        <div class="header__nav-container">
+                            <div class="grid wide">
+                                <div class="row">
+                                    <div class="col l-3 m-3 c-3">
+                                        <a href="" class="header__logo-link">
+                                            <div class="header__logo-img">
+                                                <img src="../asset/img/logo.webp" alt="Logo">
+                                                <h1>TRAVELIX</h1>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col l-6 m-0 c-0">
+                                        <ul class="header__nav-list">
+                                            <li class="header__nav-item"><a href=""
+                                                    class="header__nav-link header__nav-link-active">HOME</a></li>
+                                            <li class="header__nav-item"><a href="about.html"
+                                                    class="header__nav-link">ABOUT</a></li>
+                                            <li class="header__nav-item"><a href="offers.html"
+                                                    class="header__nav-link">OFFERS</a></li>
+                                            <li class="header__nav-item"><a href="news.html"
+                                                    class="header__nav-link">NEWS</a></li>
+                                            <li class="header__nav-item"><a href="contact.html"
+                                                    class="header__nav-link">CONTACT</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col l-3 m-9 c-9 header__nav-icon--search">
+                                        <input type="text" name="" id="header_search" class="header_search"
+                                            placeholder="Search...">
+                                        <i class="fa-solid fa-magnifying-glass header__icon-search"></i>
+                                        <div for="check__menu" class="header__search-mobile">
+                                            <i class="fa-solid fa-bars icon--menu"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+                    <div class="header__menu">
+                        <div class="header__menu__overlay">
+                        </div>
+                        <div class="header__menu__content">
+                            <div class="header__menu__content--header">
+                                <h1>Menu</h1>
+                                <i class="fa-solid fa-xmark icon__close--menu"></i>
+                            </div>
+                            <ul>
+                                <li><a href="index.html" class="">Home</a></li>
+                                <li><a href="about.html">About</a></li>
+                                <li><a href="offers.html">Offers</a></li>
+                                <li><a href="news.html">News</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- home -->
+        <div class="home">
+            <div class="home__bg">
+                <div class="grid wide">
+                    <div class="row">
+                        <div class="l-12 m-12 c-12 home__wp-title">
+                            <h1 class="home__title">Discover</h1>
+                            <h1 class="home__title">the world</h1>
+                            <div class="home__btn">
+                                <a href="">explore now</a>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Search -->
+        <div class="search">
+            <div class="grid wide">
+                <div class="wp__search-item grid wide">
+                    <div class="row search__container__tabs">
+                        <div class=" col l-2 m-6 c-12 ">
+                            <div class="search__container__tab active">
+                                <img src="../asset/img/hotel.webp" alt=""></img>
+                                <span>Hotels</span>
+                            </div>
+                        </div>
+                        <div class=" col l-2 m-6 c-12">
+                            <div class="search__container__tab">
+                                <img src="../asset/img/car.webp" alt=""></img>
+                                <span>Car rentals</span>
+                            </div>
+                        </div>
+                        <div class=" col l-2 m-6 c-12">
+                            <div class="search__container__tab">
+                                <img src="../asset/img/fly.webp" alt=""></img>
+                                <span>flights</span>
+                            </div>
+                        </div>
+                        <div class=" col l-2 m-6 c-12">
+                            <div class="search__container__tab">
+                                <img src="../asset/img/trip.webp" alt=""></img>
+                                <span>Trips</span>
+                            </div>
+                        </div>
+                        <div class=" col l-2 m-6 c-12">
+                            <div class="search__container__tab">
+                                <img src="../asset/img/cruises.webp" alt=""></img>
+                                <span>cruises</span>
+                            </div>
+                        </div>
+                        <div class=" col l-2 m-6 c-12">
+                            <div class="search__container__tab">
+                                <img src="../asset/img/activities.webp" alt=""></img>
+                                <span>activities</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="search__container">
+                    <div class="row">
+                        <div class="search__container-item l-4 m-6 c-12">
+                            <div>
+                                <span>DESTINATION</span>
+                            </div>
+                            <input type="text" class="search__input-item">
+                        </div>
+                        <div class="search__container-item l-2 m-6 c-12">
+                            <div>
+                                <span>CHECK IN</span>
+                            </div>
+                            <input type="date" class="search__input-item">
+                        </div>
+                        <div class="search__container-item l-2 m-6 c-12">
+                            <div>
+                                <span>CHECK OUT</span>
+                            </div>
+                            <input type="date" class="search__input-item">
+                        </div>
+                        <div class="search__container-item l-1 m-3 c-12">
+                            <div>
+                                <span>ADULTS</span>
+                            </div>
+                            <select name="" id="" class="search__input-item">
+                                <option value="1">01</option>
+                                <option value="2">02</option>
+                                <option value="3">03</option>
+                            </select>
+                        </div>
+                        <div class="search__container-item l-1 m-3 c-12">
+                            <div>
+                                <span>CHILDREN</span>
+                            </div>
+                            <select name="" id="" class="search__input-item">
+                                <option value="1">01</option>
+                                <option value="2">02</option>
+                                <option value="3">03</option>
+                            </select>
+                        </div>
+                        <div class="search__container-item l-2 m-12 c-12">
+                            <a href="">Search</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Tour -->
+        <div class="tour">
+            <div class="grid wide">
+                <div class="tour__container">
+                    <div class="tour__container--content">
+                        <h2>We have the best tours</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu convallis tortor.
+                            Suspendisse potenti. In faucibus massa arcu, vitae cursus mi hendrerit nec.</p>
+                    </div>
+                    <div class="tour__container--items">
+                        <div class="row">
+                            <div class="col l-4 m-12 c-12">
+                                <div class="tour__container--item">
+                                    <div class="item__overlay"></div>
+                                    <div class="item__background"></div>
+                                    <div class="item__content">
+                                        <span class="item_date">May 15th - July 01st</span>
+                                        <div class="item_center">
+                                            <h1>Mauritius</h1>
+                                            <div class="item_price">From $1450</div>
+                                            <div class="item_rating">
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                            </div>
+                                            <div class="tour__item--btn">
+                                                <div class="tour__btn__bgc"></div>
+                                                <a href="#">See more
+                                                    <span></span>
+                                                    <span></span>
+                                                    <span></span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col l-4 m-12 c-12">
+                                <div class="tour__container--item">
+                                    <div class="item__overlay"></div>
+                                    <div class="item__background--2"></div>
+                                    <div class="item__content">
+                                        <span class="item_date">May 15th - July 01st</span>
+                                        <div class="item_center">
+                                            <h1>Greece</h1>
+                                            <div class="item_price">From $1450</div>
+                                            <div class="item_rating">
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                            </div>
+                                            <div class="tour__item--btn">
+                                                <div class="tour__btn__bgc"></div>
+                                                <a href="#">See more
+                                                    <span></span>
+                                                    <span></span>
+                                                    <span></span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col l-4 m-12 c-12">
+                                <div class="tour__container--item">
+                                    <div class="item__overlay"></div>
+                                    <div class="item__background--3"></div>
+                                    <div class="item__content">
+                                        <span class="item_date">May 15th - July 01st</span>
+                                        <div class="item_center">
+                                            <h1>Scotland</h1>
+                                            <div class="item_price">From $1450</div>
+                                            <div class="item_rating">
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                            </div>
+                                            <div class="tour__item--btn">
+                                                <div class="tour__btn__bgc"></div>
+                                                <a href="#">See more
+                                                    <span></span>
+                                                    <span></span>
+                                                    <span></span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Package -->
+        <div class="package">
+            <div class="package__background"></div>
+            <div class="package__container">
+                <div class="grid wide">
+                    <div class="package__container___body">
+                        <div class="package__container___body--content">
+                            <div class="body--content__cta">
+                                <h2>maldives deluxe package</h2>
+                                <div class="item_rating">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Nullam eu convallis tortor. Suspendisse potenti. In faucibus
+                                    massa arcu,<br />
+                                    vitae cursus mi hendrerit nec. Proin bibendum, augue faucibus
+                                    tincidunt ultrices, tortor augue gravida lectus, et efficitur
+                                    enim justo vel ligula.
+                                </p>
+                            </div>
+                            <div class="item--btn">
+                                <div class="btn__bgc"></div>
+                                <a href="#">Book Now
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Rooms -->
+        <div class="rooms">
+            <div class="grid wide">
+                <div class="room__title">
+                    <h2>THE BEST OFFERS WITH ROOMS</h2>
+                </div>
+                <div class="room__wp__container">
+                    <div class="row">
+                        <div class="col l-3 m-12 c-12 mg__bt">
+                            <div class="room__wpl__item">
+                                <div class="room__wp__item">
+                                    <img src="../asset/img/room1.webp" alt="Ảnh" class="room__img__item">
+                                </div>
+                                <div class="wp_item_link">
+                                    <a href="">GRAND CASTLE</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-3 m-12 c-12 mg__bt">
+                            <div class="room__wpr__item">
+                                <span class="price">$50</span>
+                                <span>per night</span>
+
+                                <div class="item_rating rooms">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                                <p>
+                                    Suspendisse potenti. In faucibus massa. Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit. Nullam eu convallis tortor.
+                                </p>
+                                <div class="room__icon">
+                                    <img src="../asset/img/item1.webp" alt="" class="room__icon--item">
+                                    <img src="../asset/img/item2.webp" alt="" class="room__icon--item">
+                                    <img src="../asset/img/item3.webp" alt="" class="room__icon--item">
+                                    <img src="../asset/img/item4.webp" alt="" class="room__icon--item">
+                                </div>
+                                <a href="">
+                                    READ MORE
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="col l-3  m-12 c-12 mg__bt">
+                            <div class="room__wpl__item">
+                                <div class="room__wp__item">
+                                    <img src="../asset/img/room2.webp" alt="Ảnh" class="room__img__item">
+                                </div>
+                                <div class="wp_item_link">
+                                    <a href="">TURKEY HILLS</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-3  m-12 c-12 mg__bt">
+                            <div class="room__wpr__item">
+                                <span class="price">$70</span>
+                                <span>per night</span>
+                                <div class="item_rating rooms">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                                <p>
+                                    Suspendisse potenti. In faucibus massa. Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit. Nullam eu convallis tortor.
+                                </p>
+                                <div class="room__icon">
+                                    <img src="../asset/img/item1.webp" alt="" class="room__icon--item">
+                                    <img src="../asset/img/item2.webp" alt="" class="room__icon--item">
+                                    <img src="../asset/img/item3.webp" alt="" class="room__icon--item">
+                                    <img src="../asset/img/item4.webp" alt="" class="room__icon--item">
+                                </div>
+                                <a href="">
+                                    READ MORE
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="col l-3  m-12 c-12 mg__bt">
+                            <div class="room__wpl__item">
+                                <div class="room__wp__item">
+                                    <img src="../asset/img/room3.webp" alt="Ảnh" class="room__img__item">
+                                </div>
+                                <div class="wp_item_link">
+                                    <a href="">ISLAND DREAM</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-3  m-12 c-12 mg__bt">
+                            <div class="room__wpr__item">
+                                <span class="price">$90</span>
+                                <span>per night</span>
+
+                                <div class="item_rating rooms">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                                <p>
+                                    Suspendisse potenti. In faucibus massa. Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit. Nullam eu convallis tortor.
+                                </p>
+                                <div class="room__icon">
+                                    <img src="../asset/img/item1.webp" alt="" class="room__icon--item">
+                                    <img src="../asset/img/item2.webp" alt="" class="room__icon--item">
+                                    <img src="../asset/img/item3.webp" alt="" class="room__icon--item">
+                                    <img src="../asset/img/item4.webp" alt="" class="room__icon--item">
+                                </div>
+                                <a href="">
+                                    READ MORE
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="col l-3 m-12 c-12 mg__bt">
+                            <div class="room__wpl__item">
+                                <div class="room__wp__item">
+                                    <img src="../asset/img/room4.webp" alt="Ảnh" class="room__img__item">
+                                </div>
+                                <div class="wp_item_link">
+                                    <a href="">TRAVEL LIGHT</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-3 m-12 c-12 mg__bt">
+                            <div class="room__wpr__item">
+                                <span class="price">$30</span>
+                                <span>per night</span>
+
+                                <div class="item_rating rooms">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                                <p>
+                                    Suspendisse potenti. In faucibus massa. Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit. Nullam eu convallis tortor.
+                                </p>
+                                <div class="room__icon">
+                                    <img src="../asset/img/item1.webp" alt="" class="room__icon--item">
+                                    <img src="../asset/img/item2.webp" alt="" class="room__icon--item">
+                                    <img src="../asset/img/item3.webp" alt="" class="room__icon--item">
+                                    <img src="../asset/img/item4.webp" alt="" class="room__icon--item">
+                                </div>
+                                <a href="">
+                                    READ MORE
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About -->
+        <div class="about">
+            <div class="grid wide">
+                <div class="about__title">
+                    <h2>what our clients say about us</h2>
+                </div>
+                <div class="about__body">
+                    <div class="row">
+                        <div class="col l-4 m-6 c-12  mg__bt">
+                            <div class="about__wp__item">
+                                <img src="../asset/img/about1.webp" alt="Hình about">
+                                <div class="about__icon">
+                                    <img src="../asset/img/icon__about1.webp" alt="icon">
+                                </div>
+                                <div class="about__container">
+                                    <div class="about__container__iner">
+                                        <span>" Best holliday ever "</span>
+                                        <p>
+                                            Nullam eu convallis tortor. Suspendisse potenti. In
+                                            faucibus massa arcu, vitae cursus mi hendrerit nec.
+                                        </p>
+                                    </div>
+                                    <div class="about__container__info__time">
+                                        <h3>carla smith</h3>
+                                        <span>May 24, 2020</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col l-4 m-6 c-12  mg__bt">
+                            <div class="about__wp__item">
+                                <img src="../asset/img/about2.webp" alt="Hình about">
+                                <div class="about__icon">
+                                    <img src="../asset/img/icon__about2.webp" alt="icon">
+                                </div>
+                                <div class="about__container">
+                                    <div class="about__container__iner">
+                                        <span>" Best holliday ever "</span>
+                                        <p>
+                                            Nullam eu convallis tortor. Suspendisse potenti. In
+                                            faucibus massa arcu, vitae cursus mi hendrerit nec.
+                                        </p>
+                                    </div>
+                                    <div class="about__container__info__time">
+                                        <h3>carla smith</h3>
+                                        <span>May 24, 2020</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col l-4 m-6 c-12  mg__bt">
+                            <div class="about__wp__item">
+                                <img src="../asset/img/about3.webp" alt="Hình about">
+                                <div class="about__icon">
+                                    <img src="../asset/img/icon__about3.webp" alt="icon">
+                                </div>
+                                <div class="about__container">
+                                    <div class="about__container__iner">
+                                        <span>" Best holliday ever "</span>
+                                        <p>
+                                            Nullam eu convallis tortor. Suspendisse potenti. In
+                                            faucibus massa arcu, vitae cursus mi hendrerit nec.
+                                        </p>
+                                    </div>
+                                    <div class="about__container__info__time">
+                                        <h3>carla smith</h3>
+                                        <span>May 24, 2020</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Trending -->
+        <div class="trending">
+            <div class="grid wide">
+                <div class="trending__container">
+                    <h2>TRENDING NOW</h2>
+                    <div class="trending__wp__content">
+                        <div class="row">
+                            <div class="l-3 m-4 c-6 mg__bt">
+                                <div class="trending__item">
+                                    <img src="../asset/img/trending1.webp" alt="Ảnh trending">
+                                    <div class="wp__info__item">
+                                        <h3>GRAND HOTEL</h3>
+                                        <p>Form $182</p>
+                                        <span>MADRID, SPAIN</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="l-3 m-4 c-6 mg__bt">
+                                <div class="trending__item">
+                                    <img src="../asset/img/trending2.webp" alt="Ảnh trending">
+                                    <div class="wp__info__item">
+                                        <h3>MARS HOTEL</h3>
+                                        <p>Form $182</p>
+                                        <span>MADRID, SPAIN</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="l-3 m-4 c-6 mg__bt">
+                                <div class="trending__item">
+                                    <img src="../asset/img/trending3.webp" alt="Ảnh trending">
+                                    <div class="wp__info__item">
+                                        <h3>QUEEN HOTEL</h3>
+                                        <p>Form $182</p>
+                                        <span>MADRID, SPAIN</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="l-3 m-4 c-6 mg__bt">
+                                <div class="trending__item">
+                                    <img src="../asset/img/trending4.webp" alt="Ảnh trending">
+                                    <div class="wp__info__item">
+                                        <h3>MARS HOTEL</h3>
+                                        <p>Form $182</p>
+                                        <span>MADRID, SPAIN</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="l-3 m-4 c-6 mg__bt">
+                                <div class="trending__item">
+                                    <img src="../asset/img/trending5.webp" alt="Ảnh trending">
+                                    <div class="wp__info__item">
+                                        <h3>GRAND HOTEL</h3>
+                                        <p>Form $182</p>
+                                        <span>MADRID, SPAIN</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="l-3 m-4 c-6 mg__bt">
+                                <div class="trending__item">
+                                    <img src="../asset/img/trending6.webp" alt="Ảnh trending">
+                                    <div class="wp__info__item">
+                                        <h3>GRAND HOTEL</h3>
+                                        <p>Form $182</p>
+                                        <span>MADRID, SPAIN</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="l-3 m-4 c-6  mg__bt">
+                                <div class="trending__item">
+                                    <img src="../asset/img/trending7.webp" alt="Ảnh trending">
+                                    <div class="wp__info__item">
+                                        <h3>MARS HOTEL</h3>
+                                        <p>Form $182</p>
+                                        <span>MADRID, SPAIN</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="l-3 m-4 c-6 mg__bt">
+                                <div class="trending__item">
+                                    <img src="../asset/img/trending8.webp" alt="Ảnh trending">
+                                    <div class="wp__info__item">
+                                        <h3>QUEEN HOTEL</h3>
+                                        <p>Form $182</p>
+                                        <span>MADRID, SPAIN</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Contact -->
+        <div class="contact">
+            <div class="contact__bg"></div>
+            <div class="grid wide">
+                <div class="contact__container">
+                    <div class="row">
+                        <div class="col l-5"></div>
+                        <div class="col l-7 m-12 c-12">
+                            <div class="form__contact">
+                                <h2>GET IN TOUCH</h2>
+                                <form action="" class="contact__wp__form">
+                                    <div>
+                                        <div class="wp_row_one">
+                                            <div class="contact__input__item row_one">
+                                                <input type="text" name="name" id="" class="contact__form__name"
+                                                    placeholder="Name">
+                                            </div>
+                                            <div class="contact__input__item row_one">
+                                                <input type="text" name="email" id="" class="contact__form__email"
+                                                    placeholder="Email">
+                                            </div>
+                                        </div>
+
+                                        <div class="contact__input__item">
+                                            <input type="text" name="email" id="" class="contact__form__email"
+                                                placeholder="Subject">
+                                        </div>
+                                        <div class="contact__input__item">
+                                            <textarea name="" id="" cols="30" rows="10"
+                                                placeholder="Message"></textarea>
+                                        </div>
+                                        <div class="conntact__send">
+                                            <input type="button" value="SEND MESSAGES" class="btn_send">
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="grid wide">
+                <div class="row">
+                    <div class="col l-3 m-6 c-12">
+                        <a href="" class="header__logo-link">
+                            <div class="header__logo-img">
+                                <img src="../asset/img/logo.webp" alt="Logo">
+                                <h1>TRAVELIX</h1>
+                            </div>
+                        </a>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis vu lputate eros,
+                            iaculis
+                            consequat nisl. Nunc et suscipit urna. Integer eleme ntum orci eu vehicula pretium.
+                        </p>
+                        <div class="footer__wp__icon">
+                            <a href=""><i class="fab fa-pinterest footer__icon"></i></a>
+                            <a href=""><i class="fab fa-facebook-f footer__icon"></i></a>
+                            <a href=""><i class="fab fa-twitter footer__icon"></i></a>
+                            <a href=""><i class="fab fa-dribbble footer__icon"></i></a>
+                            <a href=""><i class="fab fa-behance footer__icon"></i></a>
+                            <a href=""><i class="fab fa-linkedin-in footer__icon"></i></a>
+                        </div>
+                    </div>
+                    <div class="col l-3 m-6 c-12">
+                        <h3 class="footer__row__blog footer__row__title">BLOG POST</h3>
+                        <div class="footer__blog__item">
+                            <div class="img__blog">
+                                <img src="../asset/img/blog1.webp" alt="">
+                            </div>
+                            <div class="info__blog">
+                                <div class="title__blog">
+                                    <p>Travel with us this year</p>
+                                    <p>July 20, 2022</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="footer__blog__item">
+                            <div class="img__blog">
+                                <img src="../asset/img/blog2.webp" alt="">
+                            </div>
+                            <div class="info__blog">
+                                <div class="title__blog">
+                                    <p>New destinations for you</p>
+                                    <p>July 20, 2022</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="footer__blog__item">
+                            <div class="img__blog">
+                                <img src="../asset/img/blog3.webp" alt="">
+                            </div>
+                            <div class="info__blog">
+                                <div class="title__blog">
+                                    <p>New destinations for you</p>
+                                    <p>July 20, 2022</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l-3 m-6 c-12">
+                        <h3 class="footer__row__tags footer__row__title">BLOG POST</h3>
+                        <div class="wp__content__tags">
+                            <ul class="tags__list">
+                                <li class="tags__item"><a href="">design</a></li>
+                                <li class="tags__item"><a href="">fastion</a></li>
+                                <li class="tags__item"><a href="">music</a></li>
+                                <li class="tags__item"><a href="">video</a></li>
+                                <li class="tags__item"><a href="">party</a></li>
+                                <li class="tags__item"><a href="">photography</a></li>
+                                <li class="tags__item"><a href="">adventure</a></li>
+                                <li class="tags__item"><a href="">travel</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col l-3 m-6 c-12">
+                        <h3 class="footer__row__contact footer__row__title">CONTACT INFO</h3>
+                        <div class="wp__content">
+                            <div class="wp__content__item">
+                                <div class="wp__img">
+                                    <img src="../asset/img/address.svg" alt="" class="img__contact">
+                                </div>
+                                <p>U Minh Thượng - Kiên Giang</p>
+                            </div>
+                            <div class="wp__content__item">
+                                <div class="wp__img">
+                                    <img src="../asset/img/email.svg" alt="" class="img__contact">
+                                </div>
+                                <p>nvothanh00@gmail.com</p>
+                            </div>
+                            <div class="wp__content__item">
+                                <div class="wp__img">
+                                    <img src="../asset/img/phone.svg" alt="" class="img__contact">
+                                </div>
+                                <p>0943833031</p>
+                            </div>
+                            <div class="wp__content__item">
+                                <div class="wp__img">
+                                    <img src="../asset/img/earth.svg" alt="" class="img__contact">
+                                </div>
+                                <p>http://thanhthattha.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="note_text">Copyright © 2022 By <span>Nguyen Vo Thanh</span></div>
+
+        </footer>
+        <!-- Backtop -->
+        <div class="backtop">
+            <i class="fa-solid fa-chevron-up"></i>
+        </div>
+    </div>
+</body>
+
+</html>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('.header__icon-search').click(function () {
+            $('#header_search').toggleClass('show_header_search');
+        });
+
+        $('.search__container__tab').click(function () {
+            if (!$(this).hasClass('active')) {
+                $('.search__container__tab').removeClass('active');
+                $(this).addClass('active');
+            }
+        });
+
+        $(window).scroll(function () {
+            if ($(this).scrollTop()) {
+                $('.backtop').fadeIn();
+            } else {
+                $('.backtop').fadeOut();
+            }
+        });
+
+        $('.backtop').click(function () {
+            $('html, body').animate({ scrollTop: 0 }, 750);
+        });
+
+        $('.icon--menu').click(function () {
+            $('.header__menu__overlay').fadeIn(500);
+            $('.header__menu__content').addClass('show__menu__content');
+        });
+
+        $('.icon__close--menu').click(function () {
+            $('.header__menu__overlay').fadeOut();
+            $('.header__menu__content').removeClass('show__menu__content');
+        });
+    });
+
+
+</script>

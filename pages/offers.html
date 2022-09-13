@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="10x15" href="../asset/img/logo_title.ico">
+    <link rel="stylesheet" href="../asset/css/base.css">
+    <link rel="stylesheet" href="../asset/css/grid.css">
+    <link rel="stylesheet" href="../asset/css/reset.css">
+    <link rel="stylesheet" href="../asset/css/style.css">
+    <link rel="stylesheet" href="../asset/css/responsive.css">
+    <link rel="stylesheet"
+        href="../asset/font/fontawesome-free-6.0.0-beta3-web/fontawesome-free-6.0.0-beta3-web/css/all.min.css">
+    <script src="../asset/js/jquery-3.6.0.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
+    <title>Travelix</title>
+</head>
+
+<div>
+    <div class="app">
+    <header class="header">
+        <div class="header__topbar">
+            <div class="grid wide">
+                <div class="header__topbar-container">
+                    <div class="row">
+                        <div class="col l-6 m-8 c-12">
+                            <span class="header__phone">+84 943 833 031</span>
+                            <a href=""><i class="fab fa-pinterest header__icon"></i></a>
+                            <a href=""><i class="fab fa-facebook-f header__icon"></i></a>
+                            <a href=""><i class="fab fa-twitter header__icon"></i></a>
+                            <a href=""><i class="fab fa-dribbble header__icon"></i></a>
+                            <a href=""><i class="fab fa-behance header__icon"></i></a>
+                            <a href=""><i class="fab fa-linkedin-in header__icon"></i></a>
+                        </div>
+                        <div class="col l-6 m-4 c-0 header__authen">
+                            <a href="" class="header__login">LOGIN</a>
+                            <span class="header__seperate"></span>
+                            <a href="" class="header__register">REGISTER</a>
+                        </div>
+                    </div>
+                </div>
+                <nav class="header__nav">
+                    <div class="header__nav-container">
+                        <div class="grid wide">
+                            <div class="row">
+                                <div class="col l-3 m-3 c-3">
+                                    <a href="" class="header__logo-link">
+                                        <div class="header__logo-img">
+                                            <img src="../asset/img/logo.webp" alt="Logo">
+                                            <h1>TRAVELIX</h1>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col l-6 m-0 c-0">
+                                    <ul class="header__nav-list">
+                                        <li class="header__nav-item"><a href="index.html"
+                                                class="header__nav-link ">HOME</a></li>
+                                        <li class="header__nav-item"><a href="about.html"
+                                                class="header__nav-link">ABOUT</a></li>
+                                        <li class="header__nav-item "><a href="offers.html"
+                                                class="header__nav-link header__nav-link-active">OFFERS</a></li>
+                                        <li class="header__nav-item"><a href="news.html" class="header__nav-link">NEWS</a></li>
+                                        <li class="header__nav-item"><a href="contact.html" class="header__nav-link">CONTACT</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col l-3 m-9 c-9 header__nav-icon--search">
+                                    <input type="text" name="" id="header_search" class="header_search"
+                                        placeholder="Search...">
+                                    <i class="fa-solid fa-magnifying-glass header__icon-search"></i>
+                                    <div for="check__menu" class="header__search-mobile">
+                                        <i class="fa-solid fa-bars icon--menu"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+                <div class="header__menu">
+                    <div class="header__menu__overlay">
+                    </div>
+                    <div class="header__menu__content">
+                        <div class="header__menu__content--header">
+                            <h1>Menu</h1>
+                            <i class="fa-solid fa-xmark icon__close--menu"></i>
+                        </div>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="offers.html">Offers</a></li>
+                            <li><a href="news.html">News</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- home -->
+    <div class="home">
+        <div class="home__offers__bg">
+            <div class="grid wide">
+                <div class="row">
+                    <div class="l-12 m-12 c-12 home__wp-title">
+                        <h1 class="home__offers__title">OUR OFFERS</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Search -->
+    <div class="search">
+        <div class="grid wide">
+            <div class="wp__search-item grid wide">
+                <div class="row search__container__tabs">
+                    <div class=" col l-2 m-6 c-12 ">
+                        <div class="search__container__tab active">
+                            <img src="../asset/img/hotel.webp" alt=""></img>
+                            <span>Hotels</span>
+                        </div>
+                    </div>
+                    <div class=" col l-2 m-6 c-12">
+                        <div class="search__container__tab">
+                            <img src="../asset/img/car.webp" alt=""></img>
+                            <span>Car rentals</span>
+                        </div>
+                    </div>
+                    <div class=" col l-2 m-6 c-12">
+                        <div class="search__container__tab">
+                            <img src="../asset/img/fly.webp" alt=""></img>
+                            <span>flights</span>
+                        </div>
+                    </div>
+                    <div class=" col l-2 m-6 c-12">
+                        <div class="search__container__tab">
+                            <img src="../asset/img/trip.webp" alt=""></img>
+                            <span>Trips</span>
+                        </div>
+                    </div>
+                    <div class=" col l-2 m-6 c-12">
+                        <div class="search__container__tab">
+                            <img src="../asset/img/cruises.webp" alt=""></img>
+                            <span>cruises</span>
+                        </div>
+                    </div>
+                    <div class=" col l-2 m-6 c-12">
+                        <div class="search__container__tab">
+                            <img src="../asset/img/activities.webp" alt=""></img>
+                            <span>activities</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="search__container__offers">
+                <div class="row">
+                    <div class="search__container-item l-4 m-6 c-12">
+                        <div>
+                            <span>DESTINATION</span>
+                        </div>
+                        <input type="text" class="search__input-item">
+                    </div>
+                    <div class="search__container-item l-3 m-6 c-12">
+                        <div>
+                            <span>CHECK IN</span>
+                        </div>
+                        <input type="date" class="search__input-item">
+                    </div>
+                    <div class="search__container-item l-3 m-6 c-12">
+                        <div>
+                            <span>CHECK OUT</span>
+                        </div>
+                        <input type="date" class="search__input-item">
+                    </div>
+                    <div class="search__container-item l-1 m-3 c-12">
+                        <div>
+                            <span>ADULTS</span>
+                        </div>
+                        <select name="" id="" class="search__input-item">
+                            <option value="1">01</option>
+                            <option value="2">02</option>
+                            <option value="3">03</option>
+                        </select>
+                    </div>
+                    <div class="search__container-item l-1 m-3 c-12">
+                        <div>
+                            <span>CHILDREN</span>
+                        </div>
+                        <select name="" id="" class="search__input-item">
+                            <option value="1">01</option>
+                            <option value="2">02</option>
+                            <option value="3">03</option>
+                        </select>
+                    </div>
+                    <!-- <div class="search__container-item l-2 m-12 c-12">
+                        <a href="">Search</a>
+                    </div> -->
+                </div>
+                <div class="row">
+                    <div class="col l-3">
+                        <div class="wp__checkbox">
+                            <div class="search__checkbox__item">
+                                <input type="checkbox" name="" id="" class="checkbox__info">
+                                <span>Pet Friendly</span>
+                            </div>
+                            <div class="search__checkbox__item">
+                                <input type="checkbox" name="" id="" class="checkbox__info">
+                                <span>Pet Friendly</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l-3">
+                        <div class="wp__checkbox">
+                            <div class="search__checkbox__item">
+                                <input type="checkbox" name="" id="" class="checkbox__info">
+                                <span>Pet Friendly</span>
+                            </div>
+                            <div class="search__checkbox__item">
+                                <input type="checkbox" name="" id="" class="checkbox__info">
+                                <span>Pet Friendly</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l-3">
+                        <div class="wp__checkbox">
+                            <div class="search__checkbox__item">
+                                <input type="checkbox" name="" id="" class="checkbox__info">
+                                <span>Pet Friendly</span>
+                            </div>
+                            <div class="search__checkbox__item">
+                                <input type="checkbox" name="" id="" class="checkbox__info">
+                                <span>Pet Friendly</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l-3">
+                        <div class="wp__checkbox">
+                            <div class="search__checkbox__item">
+                                <input type="checkbox" name="" id="" class="checkbox__info">
+                                <span>Pet Friendly</span>
+                            </div>
+                            <div class="search__checkbox__item">
+                                <input type="checkbox" name="" id="" class="checkbox__info">
+                                <span>Pet Friendly</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="search__container-item l-2 m-12 c-12 offers_custom_btn_search">
+                        <a href="">Search</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="offers">
+        <div class="offers__container">
+            <div class="grid wide">
+                <div class="row">
+                    <div class="offers__container__fillter">
+                        <ul class="offers__list">
+                            <li class="offers__container__item">
+                                <span>PRICE</span>
+                                <i class="fa-solid fa-chevron-down"></i>
+                                <ul class="nav__list">
+                                    <li class="nav__list__item">
+                                        <a>SHOW ALL</a>
+                                    </li>
+                                    <li class="nav__list__item">
+                                        <a>ASCENDING</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="offers__container__item">
+                                <span>LOCATION</span>
+                                <i class="fa-solid fa-chevron-down"></i>
+                                <ul class="nav__list">
+                                    <li class="nav__list__item">
+                                        <a>DEFAULT</a>
+                                    </li>
+                                    <li class="nav__list__item">
+                                        <a>ALPHABETICAL</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="offers__container__item">
+                                <span>STARS</span>
+                                <i class="fa-solid fa-chevron-down"></i>
+                                <ul class="nav__list">
+                                    <li class="nav__list__item">
+                                        <a>SHOW ALL</a>
+                                    </li>
+                                    <li class="nav__list__item">
+                                        <a>ASCENDING</a>
+                                    </li>
+                                    <li class="nav__list__item">
+                                        <a>3</a>
+                                    </li>
+                                    <li class="nav__list__item">
+                                        <a>4</a>
+                                    </li>
+                                    <li class="nav__list__item">
+                                        <a>5</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="offers__container__item">
+                                <span>DISTANCE FROM CENTER</span>
+                                <i class="fa-solid fa-chevron-down"></i>
+                                <ul class="nav__list">
+                                    <li class="nav__list__item">
+                                        <a>DISTANCE</a>
+                                    </li>
+                                    <li class="nav__list__item">
+                                        <a>DISTANCE</a>
+                                    </li>
+                                    <li class="nav__list__item">
+                                        <a>DISTANCE</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="offers__container__item">
+                                <span>REVIEWS</span>
+                                <i class="fa-solid fa-chevron-down"></i>
+                                <ul class="nav__list">
+                                    <li class="nav__list__item">
+                                        <a>REVIEW</a>
+                                    </li>
+                                    <li class="nav__list__item">
+                                        <a>REVIEW</a>
+                                    </li>
+                                    <li class="nav__list__item">
+                                        <a>ASCENDING</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="wp__offers__content">
+                    <div class="row mg__bt">
+                        <div class="col l-4 m-6 c-12">
+                            <img src="/asset/img/offers_content1.webp" alt="" class="img__offers__content">
+                            <div class="stickers">
+                                <a href="">grand castle</a>
+                            </div>
+                        </div>
+                        <div class="col l-8 m-6 c-12">
+                            <div class="room__wpr__item">
+                                <span class="price">$50</span>
+                                <span>per night</span>
+                                <div class="item_rating">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                                <div class="evaluate">
+                                    <div class="wp__text__evaluate">
+                                        <span class="text__evaluate">VERY GOOD</span>
+                                        <span class="number__reviews">100 reviews</span>
+                                    </div>  
+                                    <div class="point__evaluate">
+                                        8.1
+                                    </div>
+                                </div>
+
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa blanditiis.                 
+                                </p>
+                                <div class="room__icon">
+                                    <img src="../asset/img/item1.webp" alt="" class="room__icon--item">
+                                    <img src="../asset/img/item2.webp" alt="" class="room__icon--item">
+                                    <img src="../asset/img/item3.webp" alt="" class="room__icon--item">
+                                    <img src="../asset/img/item4.webp" alt="" class="room__icon--item">
+                                </div>
+                                <div class="btn btn__book">
+                                    <a class="btn__book__link">BOOK NOW...</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mg__bt">
+                        <div class="col l-4 m-6 c-12">
+                            <img src="/asset/img/offers_content2.webp" alt="" class="img__offers__content">
+                            <div class="stickers">
+                                <a href="">turkey hills</a>
+                            </div>
+                        </div>
+                        <div class="col l-8 m-6 c-12">
+                            <div class="room__wpr__item">
+                                <span class="price">$50</span>
+                                <span>per night</span>
+                                <div class="item_rating">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                                <div class="evaluate">
+                                    <div class="wp__text__evaluate">
+                                        <span class="text__evaluate">VERY GOOD</span>
+                                        <span class="number__reviews">100 reviews</span>
+                                    </div>  
+                                    <div class="point__evaluate">
+                                        8.1
+                                    </div>
+                                </div>
+
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa blanditiis.
+                                </p>
+                                <div class="room__icon">
+                                    <img src="../asset/img/item1.webp" alt="" class="room__icon--item">
+                                    <img src="../asset/img/item2.webp" alt="" class="room__icon--item">
+                                    <img src="../asset/img/item3.webp" alt="" class="room__icon--item">
+                                    <img src="../asset/img/item4.webp" alt="" class="room__icon--item">
+                                </div>
+                                <div class="btn btn__book">
+                                    <a class="btn__book__link">BOOK NOW...</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row mg__bt">
+                        <div class="col l-4 m-6 c-12">
+                            <img src="/asset/img/offers_content2.webp" alt="" class="img__offers__content">
+                            <div class="stickers">
+                                <a href="">island dream</a>
+                            </div>
+                        </div>
+                        <div class="col l-8 m-6 c-12">
+                            <div class="room__wpr__item">
+                                <span class="price">$90</span>
+                                <span>per night</span>
+                                <div class="item_rating">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                                <div class="evaluate">
+                                    <div class="wp__text__evaluate">
+                                        <span class="text__evaluate">VERY GOOD</span>
+                                        <span class="number__reviews">100 reviews</span>
+                                    </div>  
+                                    <div class="point__evaluate">
+                                        8.1
+                                    </div>
+                                </div>
+
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa blanditiis.
+                                </p>
+                                <div class="room__icon">
+                                    <img src="../asset/img/item1.webp" alt="" class="room__icon--item">
+                                    <img src="../asset/img/item2.webp" alt="" class="room__icon--item">
+                                    <img src="../asset/img/item3.webp" alt="" class="room__icon--item">
+                                    <img src="../asset/img/item4.webp" alt="" class="room__icon--item">
+                                </div>
+                                <div class="btn btn__book">
+                                    <a class="btn__book__link">BOOK NOW...</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row mg__bt">
+                        <div class="col l-4 m-6 c-12">
+                            <img src="/asset/img/offers_content3.webp" alt="" class="img__offers__content">
+                            <div class="stickers">
+                                <a href="">travel light</a>
+                            </div>
+                        </div>
+                        <div class="col l-8 m-6 c-12">
+                            <div class="room__wpr__item">
+                                <span class="price">$100</span>
+                                <span>per night</span>
+                                <div class="item_rating">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                                <div class="evaluate">
+                                    <div class="wp__text__evaluate">
+                                        <span class="text__evaluate">VERY GOOD</span>
+                                        <span class="number__reviews">100 reviews</span>
+                                    </div>  
+                                    <div class="point__evaluate">
+                                        8.1
+                                    </div>
+                                </div>
+
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa blanditiis.
+                                </p>
+                                <div class="room__icon">
+                                    <img src="../asset/img/item1.webp" alt="" class="room__icon--item">
+                                    <img src="../asset/img/item2.webp" alt="" class="room__icon--item">
+                                    <img src="../asset/img/item3.webp" alt="" class="room__icon--item">
+                                    <img src="../asset/img/item4.webp" alt="" class="room__icon--item">
+                                </div>
+                                <div class="btn btn__book">
+                                    <a class="btn__book__link">BOOK NOW...</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row mg__bt">
+                        <div class="col l-4 m-6 c-12">
+                            <img src="/asset/img/offers_content4.webp" alt="" class="img__offers__content">
+                            <div class="stickers">
+                                <a href="">travel light</a>
+                            </div>
+                        </div>
+                        <div class="col l-8 m-6 c-12">
+                            <div class="room__wpr__item">
+                                <span class="price">$50</span>
+                                <span>per night</span>
+                                <div class="item_rating">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                                <div class="evaluate">
+                                    <div class="wp__text__evaluate">
+                                        <span class="text__evaluate">VERY GOOD</span>
+                                        <span class="number__reviews">100 reviews</span>
+                                    </div>  
+                                    <div class="point__evaluate">
+                                        8.1
+                                    </div>
+                                </div>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa blanditiis.
+                                </p>
+                                <div class="room__icon">
+                                    <img src="../asset/img/item1.webp" alt="" class="room__icon--item">
+                                    <img src="../asset/img/item2.webp" alt="" class="room__icon--item">
+                                    <img src="../asset/img/item3.webp" alt="" class="room__icon--item">
+                                    <img src="../asset/img/item4.webp" alt="" class="room__icon--item">
+                                </div>
+                                <div class="btn btn__book">
+                                    <a class="btn__book__link">BOOK NOW...</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="grid wide">
+            <div class="row">
+                <div class="col l-3 m-6 c-12">
+                    <a href="" class="header__logo-link">
+                        <div class="header__logo-img">
+                            <img src="../asset/img/logo.webp" alt="Logo">
+                            <h1>TRAVELIX</h1>
+                        </div>
+                    </a>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis vu lputate eros, iaculis
+                        consequat nisl. Nunc et suscipit urna. Integer eleme ntum orci eu vehicula pretium.
+                    </p>
+                    <div class="footer__wp__icon">
+                        <a href=""><i class="fab fa-pinterest footer__icon"></i></a>
+                        <a href=""><i class="fab fa-facebook-f footer__icon"></i></a>
+                        <a href=""><i class="fab fa-twitter footer__icon"></i></a>
+                        <a href=""><i class="fab fa-dribbble footer__icon"></i></a>
+                        <a href=""><i class="fab fa-behance footer__icon"></i></a>
+                        <a href=""><i class="fab fa-linkedin-in footer__icon"></i></a>
+                    </div>
+                </div>
+                <div class="col l-3 m-6 c-12">
+                    <h3 class="footer__row__blog footer__row__title">BLOG POST</h3>
+                    <div class="footer__blog__item">
+                        <div class="img__blog">
+                            <img src="../asset/img/blog1.webp" alt="">
+                        </div>
+                        <div class="info__blog">
+                            <div class="title__blog">
+                                <p>Travel with us this year</p>
+                                <p>July 20, 2022</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer__blog__item">
+                        <div class="img__blog">
+                            <img src="../asset/img/blog2.webp" alt="">
+                        </div>
+                        <div class="info__blog">
+                            <div class="title__blog">
+                                <p>New destinations for you</p>
+                                <p>July 20, 2022</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer__blog__item">
+                        <div class="img__blog">
+                            <img src="../asset/img/blog3.webp" alt="">
+                        </div>
+                        <div class="info__blog">
+                            <div class="title__blog">
+                                <p>New destinations for you</p>
+                                <p>July 20, 2022</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col l-3 m-6 c-12">
+                    <h3 class="footer__row__tags footer__row__title">BLOG POST</h3>
+                    <div class="wp__content__tags">
+                        <ul class="tags__list">
+                            <li class="tags__item"><a href="">design</a></li>
+                            <li class="tags__item"><a href="">fastion</a></li>
+                            <li class="tags__item"><a href="">music</a></li>
+                            <li class="tags__item"><a href="">video</a></li>
+                            <li class="tags__item"><a href="">party</a></li>
+                            <li class="tags__item"><a href="">photography</a></li>
+                            <li class="tags__item"><a href="">adventure</a></li>
+                            <li class="tags__item"><a href="">travel</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col l-3 m-6 c-12">
+                    <h3 class="footer__row__contact footer__row__title">CONTACT INFO</h3>
+                    <div class="wp__content">
+                        <div class="wp__content__item">
+                            <div class="wp__img">
+                                <img src="../asset/img/address.svg" alt="" class="img__contact">
+                            </div>
+                            <p>U Minh Thượng - Kiên Giang</p>
+                        </div>
+                        <div class="wp__content__item">
+                            <div class="wp__img">
+                                <img src="../asset/img/email.svg" alt="" class="img__contact">
+                            </div>
+                            <p>nvothanh00@gmail.com</p>
+                        </div>
+                        <div class="wp__content__item">
+                            <div class="wp__img">
+                                <img src="../asset/img/phone.svg" alt="" class="img__contact">
+                            </div>
+                            <p>0943833031</p>
+                        </div>
+                        <div class="wp__content__item">
+                            <div class="wp__img">
+                                <img src="../asset/img/earth.svg" alt="" class="img__contact">
+                            </div>
+                            <p>http://thanhthattha.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="note_text">Copyright © 2022 By <span>Nguyen Vo Thanh</span></div>
+
+    </footer>
+        <!-- Backtop -->
+        <div class="backtop">
+            <i class="fa-solid fa-chevron-up"></i>
+        </div>
+    </div>
+</body>
+
+</html>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('.header__icon-search').click(function () {
+            $('#header_search').toggleClass('show_header_search');
+        });
+
+        $('.search__container__tab').click(function () {
+            if (!$(this).hasClass('active')) {
+                $('.search__container__tab').removeClass('active');
+                $(this).addClass('active');
+            }
+        });
+
+        $(window).scroll(function () {
+            if ($(this).scrollTop()) {
+                $('.backtop').fadeIn();
+            } else {
+                $('.backtop').fadeOut();
+            }
+        });
+
+        $('.backtop').click(function () {
+            $('html, body').animate({ scrollTop: 0 }, 750);
+        });
+
+        $('.icon--menu').click(function () {
+            $('.header__menu__overlay').fadeIn(500);
+            $('.header__menu__content').addClass('show__menu__content');
+        });
+
+        $('.icon__close--menu').click(function () {
+            $('.header__menu__overlay').fadeOut();
+            $('.header__menu__content').removeClass('show__menu__content');
+        });
+    });
+
+
+</script>
