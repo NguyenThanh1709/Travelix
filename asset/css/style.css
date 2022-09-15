@@ -383,7 +383,7 @@ body {
 /* SEARCH */
 .search {
     width: 100%;
-    background: var(--bg-btn);
+    background: linear-gradient(to right, #fa9e1b, #8d4fff);;
     position: relative;
 }
 
