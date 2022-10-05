@@ -2044,6 +2044,12 @@ ABOUT
     margin-left: 28px;
 }
 
+.wp-video-item {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 36px;
+}
+
 /* Backtop */
 .backtop {
     width: 50px;
