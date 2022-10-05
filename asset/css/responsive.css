@@ -100,7 +100,6 @@
     }
 
 
-
     .wp__search-item {
         top: 80px;
         position: relative;
@@ -332,5 +331,9 @@
         display: flex;
         justify-content: flex-end;
         margin-top: -60px;
+    }
+    .video {
+       padding: 0 12px;
+       height: 400px;
     }
 }
