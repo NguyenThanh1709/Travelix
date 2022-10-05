@@ -2045,8 +2045,8 @@ ABOUT
 }
 
 .wp-video-item {
-    display: flex;
-    justify-content: center;
+    /* display: flex;
+    justify-content: center; */
     margin-bottom: 36px;
 }
 
