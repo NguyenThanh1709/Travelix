@@ -70,7 +70,7 @@ body {
 }
 
 .header__nav {
-    padding: 24px;
+    padding: 16px;
     position: fixed;
     left: 0;
     right: 0;
@@ -84,11 +84,17 @@ body {
 }
 
 .header__logo-link h1 {
-    padding: 0 0 0 10px;
+    padding: 10px 0 0 10px;
 }
 
 .header__logo-img {
     display: flex;
+}
+
+.header__logo-img img {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
 }
 
 .header__nav-container {
@@ -315,20 +321,25 @@ body {
 }
 
 .home__wp-title h1:first-child {
-    font-size: 112px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 46px;
     color: var(--while-color);
     padding: 10px 0;
     margin: 0;
     text-transform: uppercase;
     font-weight: 900;
+    text-shadow: 0 0 5px #fa9e1b;
+    margin-bottom: 30px;
 }
 
 .home__wp-title h1:nth-child(2) {
-    font-family: 'Beyond';
-    font-size: 100px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 28px;
     color: #fff;
     text-align: center;
     margin: 0 0 40px 0;
+    font-weight: 600;
+    text-shadow: 0 0 5px #fa9e1b;
 }
 
 .home__btn {
@@ -562,7 +573,7 @@ body {
 }
 
 .item__background {
-    background-image: url(../img/tour1.webp);
+    background-image: url(../img/hatien.jpg);
     position: absolute;
     top: 0;
     left: 0;
@@ -575,7 +586,7 @@ body {
 }
 
 .item__background--2 {
-    background-image: url(../img/tour2.webp);
+    background-image: url(../img/Uminhthuong.jpg);
     position: absolute;
     top: 0;
     left: 0;
@@ -588,7 +599,7 @@ body {
 }
 
 .item__background--3 {
-    background-image: url(../img/tour3.webp);
+    background-image: url(../img/phuquoc.jpg);
     position: absolute;
     top: 0;
     left: 0;
@@ -828,6 +839,7 @@ body {
 
 .room__img__item {
     width: 100%;
+    height: 250px;
 }
 
 .wp_item_link {
@@ -924,6 +936,7 @@ body {
 
 .about__wp__item img {
     width: 100%;
+    height: 520px;
 }
 
 .about__icon {
@@ -2065,4 +2078,19 @@ ABOUT
 
 .backtop:hover {
     background: #fa9e1b;
+}
+
+.room__wpr__item .date{
+    font-size: 20px;
+    color: #fa9e1b;
+    font-weight: 600;
+}
+.list_content_travel {
+    list-style: none;
+    color: #fff;
+    font-size: 1.4rem;
+}
+
+.list_content_travel li {
+    padding-bottom: 10px;
 }
