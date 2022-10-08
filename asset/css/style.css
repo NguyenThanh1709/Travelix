@@ -2094,3 +2094,70 @@ ABOUT
 .list_content_travel li {
     padding-bottom: 10px;
 }
+
+.img .img--item {
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 0 3px #350a4e;
+}
+
+.sumenh {
+    margin-top: 40px;
+}
+
+.video--clip {
+    margin-top: 90px;
+}
+
+.avt__user {
+    height: 28px;
+    width: 28px;
+}
+
+.blog_news p {
+    font-size: 1.8rem;
+    font-weight: 600;
+    padding: 20px 0;
+}
+
+.wp__img__comment {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.wp__img__comment span {
+    font-size: 1.4rem;
+    padding: 0 10px;
+    color: #fa9e1b;
+}
+
+body .wp__img__comment .content__comment {
+    color: #2d2c2c;
+    flex: 1;
+}
+
+.btn__comment {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.btn__comment input:first-child {
+    width: 80%;
+    font-size: 1.4rem;
+    height: 24px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #cccc;
+}
+
+.btn__comment input:last-child {
+    margin-left: 6px;
+    height: 24px;
+    width: 48px;
+    border: none;
+    font-size: 1.4rem;
+    background: #fa9e1b;
+    color: #fff;
+    border-radius: 3px;
+}
