@@ -2173,7 +2173,6 @@ body .wp__img__comment .content__comment {
     display: none;
     align-items: center;
     justify-content: center;
-    visibility: hidden;
 }
 
 .open--dialog {
