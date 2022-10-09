@@ -2173,12 +2173,11 @@ body .wp__img__comment .content__comment {
     display: none;
     align-items: center;
     justify-content: center;
-    transition: all 300ms ease;
+    visibility: hidden;
 }
 
 .open--dialog {
     display: flex;
-    transition: all 300ms ease;
 }
 
 .overlay {
