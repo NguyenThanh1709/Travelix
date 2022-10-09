@@ -70,7 +70,7 @@ body {
 }
 
 .header__nav {
-    padding: 16px;
+    padding: 8px;
     position: fixed;
     left: 0;
     right: 0;
@@ -2032,7 +2032,8 @@ ABOUT
 }
 
 .wp_contact__container .icon__address {
-    width: 48px;
+    width: 80px;
+    height: 80px;
 }
 
 .wp_contact__containe .footer__wp__icon a {
@@ -2161,3 +2162,85 @@ body .wp__img__comment .content__comment {
     color: #fff;
     border-radius: 3px;
 }
+
+.dialog {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 10;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    transition: all 300ms ease;
+}
+
+.open--dialog {
+    display: flex;
+    transition: all 300ms ease;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.dialog__body {
+    width: 600px; 
+    height: 400px;
+    position: relative;
+    background-color: #fff;
+    overflow: auto;
+    border-radius: 5px;
+}
+
+.header__modal {
+    background-color: #fa9e1b;
+    text-align: center;
+    font-size: 1.8rem;
+    color: #FFF;
+    position: relative;
+    min-height: 48px;
+    line-height: 48px;
+    padding: 0 30px;
+}
+
+.icon__off {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 1.6rem;
+    cursor: pointer;
+}
+
+.icon_vitri {
+    font-size: 1.8rem;
+    margin-right: 8px;
+}
+
+.dialog__body h2 {
+    font-size: 2rem;
+    padding: 16px 16px;
+    color: #929191;
+}
+
+.wp-content {
+    display: block;
+    padding: 0 36px;
+}
+
+.title__text__tour {
+    font-size: 1.4rem;
+    font-weight: 600;
+    padding: 10px 0;
+    color: #2d2c2c;
+}
+
+.content__tour {
+    font-size: 1.3rem;
+    line-height: 1.8rem;
+}
+

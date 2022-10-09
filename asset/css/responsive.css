@@ -95,6 +95,14 @@
         margin-top: 20px;
         padding: 0 12px;
     }
+
+    .dialog {
+        padding: 0 12px;
+    }
+
+    .icon__off {
+        padding: 8px;
+    }
 }
 
 /* Tablet */
