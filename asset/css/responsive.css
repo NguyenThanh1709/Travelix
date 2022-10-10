@@ -175,6 +175,15 @@
 
 /* Mobile*/
 @media (max-width: 739px) {
+    .room__wpr__item .price {
+        font-size: 2.4rem;
+        padding: 0;
+    }
+
+    .wp__text__evaluate {
+        display: none;
+    }
+
     .hide-on-mobile {
         display: none;
     }
