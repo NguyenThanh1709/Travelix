@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Montserrat',Arial,Helvetica,sans-serif;
 }
 
 body {
@@ -2173,10 +2174,12 @@ body .wp__img__comment .content__comment {
     align-items: center;
     justify-content: center;   
     display: none;
+
 }
 
 .open--dialog {
     display: flex;
+   
 }
 
 .overlay {
@@ -2190,6 +2193,7 @@ body .wp__img__comment .content__comment {
     background-color: #fff;
     overflow: auto;
     border-radius: 5px;
+    animation: hieuung ease 0.5s;
 }
 
 .header__modal {
@@ -2244,5 +2248,17 @@ body .wp__img__comment .content__comment {
 
 .img_lictrinh {
     width: 80%;
+}
+
+@keyframes hieuung {
+    from {
+        transform: translateY(100px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0px);
+        opacity: 1;   
+    }
+   
 }
 
